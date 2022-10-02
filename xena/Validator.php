@@ -33,12 +33,9 @@ class UniValidator
     public function is_same($expr1, $expr2)
     {
         $this->is_ok = ($expr1 == $expr2);
-<<<<<<< HEAD
         if (!$this->is_ok){
             $this->status["same"]="different";
         }
-=======
->>>>>>> origin/main
         return $this->is_ok;
     }
 
