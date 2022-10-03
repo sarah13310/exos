@@ -54,10 +54,11 @@ class Infos
         $this->password = $password;
     }
 
-    public function __construct($mail,$password, $langages){
+    public function __construct(string $mail,string $password, array $langages=[]){
         $this->mail=$mail;
         $this->password=$password;
-        $this->langages=$langages;
+        if ($langages!=null){
+            $this->langages=$langages;
+        }
     }
-
 }

@@ -10,7 +10,7 @@ form {
     margin-left: 50%;
     margin-right: 50%;
     transform: translate(-50%);
-    background: linear-gradient(rgb(57, 2, 73),#c945a8);
+    background: linear-gradient(rgb(57, 2, 73), #c945a8);
     border: 1px solid rgb(247, 184, 236);
     box-shadow: 1px 2px 5px rgb(33, 1, 48);
 }
@@ -30,7 +30,7 @@ fieldset {
 }
 
 legend {
-    padding-top:0;
+    padding-top: 0;
     color: whitesmoke;
     text-shadow: 1px 1px rgb(17, 17, 17);
 }
@@ -40,7 +40,6 @@ legend {
     border-color: #f3e5f5;
 }
 
-
 .btn-primary {
     color: whitesmoke;
     background: linear-gradient(#48056e, #8b239d);
@@ -49,7 +48,6 @@ legend {
     transition: 1.5s;
     margin-left: 10px;
 }
-
 
 .btn-primary:hover {
     color: whitesmoke;
@@ -64,14 +62,14 @@ legend {
 
 }
 
-.label{
+.label {
     color: #e9b1e5;
     margin-left: 5px;
     margin-right: 10px;
     text-shadow: 1px 0 1px #230421;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     color: #380356;
 }
 
@@ -80,17 +78,16 @@ legend {
     border-color: rgba(115, 5, 140, 0.83);
 }
 
-.input-group>.form-control:focus, .input-group>.form-select:focus{
+.input-group > .form-control:focus, .input-group > .form-select:focus {
     color: #380356;
     font-weight: 550;
 }
 
-
-.error li{
+.error li {
     background: red;
     color: white;
 }
 
-.alert{
+.alert {
     margin: 4px 400px;
 }
